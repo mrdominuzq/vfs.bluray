@@ -24,4 +24,4 @@ set(NFS_SOURCES src/BlurayDirectory.cpp
 
 set(DEPLIBS ${BLURAY_LIBRARIES} ${p8-platform_LIBRARIES} ${kodiplatform_LIBRARIES})
 
-build_addon(vfs.libbluray Bluray DEPLIBS)
+build_addon(vfs.bluray Bluray DEPLIBS)
