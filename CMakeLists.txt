@@ -16,10 +16,10 @@ include_directories(${KODI_INCLUDE_DIR}/.. # Hack way with "/..", need bigger Ko
                     ${p8-platform_INCLUDE_DIRS}
                     ${BLURAY_INCLUDE_DIRS})
 
-set(NFS_HEADERS src/BlurayDirectory.h
+set(BLURAY_HEADERS src/BlurayDirectory.h
                 src/BlurayFile.h)
 
-set(NFS_SOURCES src/BlurayDirectory.cpp
+set(BLURAY_SOURCES src/BlurayDirectory.cpp
                 src/BlurayFile.cpp)
 
 set(DEPLIBS ${BLURAY_LIBRARIES} ${p8-platform_LIBRARIES} ${kodiplatform_LIBRARIES})
