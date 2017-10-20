@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon
+  id="vfs.bluray"
+  version="1.0.0"
+  name="BLURAY support"
+  provider-name="mrdominuzq">
+  <requires>@ADDON_DEPENDS@</requires>
+  <extension
+    point="kodi.vfs"
+    files="true"
+    directories="true"
+    library_@PLATFORM@="@LIBRARY_FILENAME@" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">BLURAY support</summary>
+    <description lang="en">BLURAY support</description>
+    <platform>@PLATFORM@</platform>
+  </extension>
+</addon>
